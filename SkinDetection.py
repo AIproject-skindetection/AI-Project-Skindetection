@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 #Open a simple image
-img=cv2.imread("6_A_hgr2B_id05_1.jpg")
+img=cv2.imread("image.jpg")
 
 #converting from gbr to hsv color space
 img_HSV = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
